@@ -116,3 +116,6 @@ script_timer_seconds=$(((script_timer_time % (60*60)) % 60))
 echo ""
 echo "Done!"
 echo "Finished compiling futurerestore in ""$script_timer_minutes"" minutes and ""$script_timer_seconds"" seconds"
+echo Closing Terminal in 10 seconds
+sleep 10
+killall Terminal
