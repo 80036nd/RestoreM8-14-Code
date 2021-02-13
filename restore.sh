@@ -1,13 +1,13 @@
 #!/bin/bash
  set -e
  clear
- cd ~/Documents/RestoreM8-V2
- echo "RestoreM8 By 80036nd"
+ cd ~/Documents/RestoreM8-14
+ echo "RestoreM8-14 By 80036nd"
  FILE=restore.ipsw
  if [ -f "$FILE" ]; then
  echo "The $FILE file exists. Continuing..."
  else
- echo "The $FILE file does not exist on the ~/Documents/RestoreM8-V2 folder! Cannot continue."
+ echo "The $FILE file does not exist on the ~/Documents/RestoreM8-14 folder! Cannot continue."
  echo "Terminal Closing in 10 seconds"
 sleep 10 
 killall Terminal
@@ -18,7 +18,7 @@ killall Terminal
  if [ -f "$FILE" ]; then
  echo "The $FILE file exists. Continuing..."
  else
- echo "The $FILE file does not exist on the ~/Documents/RestoreM8-V2 folder! Cannot continue."
+ echo "The $FILE file does not exist on the ~/Documents/RestoreM8-14 folder! Cannot continue."
  echo "Terminal Closing in 10 seconds"
 sleep 10 
 killall Terminal
@@ -29,7 +29,7 @@ killall Terminal
  if [ -f "$FILE" ]; then
  echo "The $FILE file exists. Continuing..."
  else
- echo "The $FILE file does not exist on the ~/Documents/RestoreM8-V2 folder! Cannot continue. Please re-download the code from the app!"
+ echo "The $FILE file does not exist on the ~/Documents/RestoreM8-14 folder! Cannot continue. Please re-download the code from the app!"
  exit
  fi
  echo "Now transfering the control to FutureRestore! Please monitor the Terminal!"
@@ -41,8 +41,8 @@ killall Terminal
  ./futurerestore -t blob.shsh2 --latest-sep --latest-baseband restore.ipsw
  clear
  echo "Your Device Should be Restored"
- echo "RestoreM8 By 80036nd"
- echo "Patches by GeoSn0w"
+ echo "RestoreM8-14 By 80036nd"
+ echo "Legacy patches by GeoSn0w"
  echo "Terminal Closing in 10 seconds"
 sleep 10 
 killall Terminal
