@@ -1,5 +1,5 @@
 #!/bin/sh
-
+cd ~/Documents/RestoreM8-14
 echo "This script will compile futurerestore by tihmstar"
 echo "This script was Written by Capt Inc on December 4, 2020"
 echo ""
