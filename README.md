@@ -2,4 +2,4 @@
 
 Files for the RestoreM8-14 app
 
-fututrerestore_compile.sh made by Capt inc
+fututrerestore_compile.sh made by captinc
